@@ -121,21 +121,25 @@ LICENSE:
 1. Був написан скрипт, який читає довільну змінну оточення та друкує її значення у консоль:
 
 ![5](https://github.com/GAMECHl/PR-2-HurzidzeAnton/blob/main/5.png)
+
 Рис.5 - Скрипт env_variables.js
 
 Виконавши команду node env_variables.js ми запустимо скрипт i побачимо результат:
 
 ![6](https://github.com/GAMECHl/PR-2-HurzidzeAnton/blob/main/6.png)
+
 Рис.6 - Помилка при вводi команди
 
 Для уникнення данної помилки треба ввести команду встановлення бiблiотеки dotenv, а саме pnpm add dotenv:
 
 ![7](https://github.com/GAMECHl/PR-2-HurzidzeAnton/blob/main/7.png)
+
 Рис.7 - Встановлення бiблiотеки dotenv
 
 Пiсля встановлення запускаємо скрипт:
 
 ![8](https://github.com/GAMECHl/PR-2-HurzidzeAnton/blob/main/8.png)
+
 Рис.8 - Правильна робота скрипта env_variables.js
 
 2. Задавши різнi значення змінної оточення на різних рівнях (ОС, сесія терміналу, окремий запуск скрипта, dotEnv файл) я дослiдив пріоритетність їх застосування та
